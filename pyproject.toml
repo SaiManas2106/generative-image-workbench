@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generative-image-workbench"
+version = "0.1.0"
+description = "Dataset, adapter, and local inference planning for generative image workflows"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.110,<1.0",
+  "uvicorn[standard]>=0.27,<1.0",
+]
+
+[project.optional-dependencies]
+ml = [
+  "torch>=2.2",
+  "diffusers>=0.30",
+  "transformers>=4.40",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
