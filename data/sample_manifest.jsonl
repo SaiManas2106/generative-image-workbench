@@ -1,0 +1,2 @@
+{"image_path":"images/explorer_front.png","caption":"full body concept art of explorer, blue jacket","split":"train","identity_id":"explorer_01","reference_image_path":"images/explorer_ref.png"}
+{"image_path":"images/explorer_profile.png","caption":"profile concept art of explorer, blue jacket","split":"validation","identity_id":"explorer_01","reference_image_path":"images/explorer_ref.png"}
